@@ -1,0 +1,17 @@
+# Virtual environment
+backend/venv/
+backend/__pycache__/
+
+# Firebase credentials (CRITICAL: Do not push private keys!)
+backend/serviceAccountKey.json
+backend/*.json.private
+
+# Frontend builds and dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
