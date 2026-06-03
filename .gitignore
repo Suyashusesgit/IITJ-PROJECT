@@ -15,3 +15,6 @@ frontend/.env.local
 # OS files
 .DS_Store
 Thumbs.db
+
+# Arduino credentials (CRITICAL: Never commit this!)
+sketch_jun3a/secrets.h
